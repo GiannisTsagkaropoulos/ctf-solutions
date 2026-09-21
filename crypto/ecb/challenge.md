@@ -1,0 +1,1 @@
+Your goal is to extract the last character of this message. The message is encrypted under the oracle's secret key. To prevent you from randomly guessing the answer, you will have to call the solve command with a correct guess of the last character 5 times in a row to get the flag!

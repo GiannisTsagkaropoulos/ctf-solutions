@@ -1,0 +1,1 @@
+Use the server's valid-padding response as a Bleichenbacher oracle. Maintain the interval of possible RSA plaintexts, search for multiplicative blinding factors, and narrow the interval until the PKCS#1 v1.5 plaintext is recovered.

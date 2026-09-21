@@ -1,0 +1,5 @@
+The challenge description wasn't the following. I tried to reverse engineer the challenge description using my memory, AI and my comments from the writeups.
+
+The server encrypts user records with AES-ECB under a secret master key. A record contains a user-controlled username, a secret 16-byte voucher, a color, and 16 bytes of randomness. The record is serialized with `&` and `=` delimiters and padded before encryption.
+
+The `create_user` command returns encrypted records. The `play` command decrypts a supplied record, seeds Python's `random.Random` with its `game_random` field, and compares the resulting 64-bit number with the supplied guess. A voucher worth enough points can be submitted with `use_voucher`; `get_flag` succeeds only after reaching the target score. Use ECB cut-and-paste to recover the secret voucher and claim the flag.

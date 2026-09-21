@@ -1,0 +1,1 @@
+The AES key is generated from a small integer seed. Enumerate the entire 16-bit seed space, derive each candidate key, encrypt the known plaintext, and compare with the supplied ciphertext before decrypting the flag.

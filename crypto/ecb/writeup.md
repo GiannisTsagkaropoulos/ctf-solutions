@@ -1,0 +1,1 @@
+The flag is appended to attacker-controlled input and encrypted with ECB. Vary the input length to align one unknown flag byte at the end of a block, build a dictionary of encryptions for every candidate byte, and repeat for the complete flag.

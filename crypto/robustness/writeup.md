@@ -1,0 +1,1 @@
+The authenticated-encryption implementation exposes a verification distinction that permits controlled ciphertext changes. Use the oracle to recover or forge the needed plaintext/tag combination, then submit the valid modified token for the flag.

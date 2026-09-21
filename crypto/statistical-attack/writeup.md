@@ -1,0 +1,1 @@
+The ciphertext was produced by XORing text with a reused keystream. Based on the first pass of the exploit i see that lag{ and other characters appear. I manually replace those characters in the string and run again, etc until flag appears.

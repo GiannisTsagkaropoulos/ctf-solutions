@@ -1,0 +1,1 @@
+Exploit the custom CTR/MAC construction through its encryption oracle. Choose a structured plaintext whose manipulated blocks cancel the construction's counter-dependent XOR, then submit the resulting valid forged token to obtain the flag.

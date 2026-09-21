@@ -1,0 +1,5 @@
+The challenge description wasn't the following. I tried to reverse engineer the challenge description using my memory, AI and my comments from the writeups.
+
+The server stores a secret 16-byte token. For `get_token`, it appends random chaff so the plaintext is exactly 32 AES blocks, encrypts it with AES-CTR, and applies a fixed but secret byte permutation to the ciphertext. The `decrypt` command applies the same permutation in reverse and reports whether the decrypted value has valid PKCS#7 padding. The permutation is reused for all ciphertexts of a given length, while the CTR nonce changes.
+
+Recover the token and submit it with the `flag` command. The query budget is limited, so use the padding oracle to learn the permutation and CTR keystream bytes, then combine several token ciphertexts.

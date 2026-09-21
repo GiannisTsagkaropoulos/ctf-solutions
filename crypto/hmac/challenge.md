@@ -1,0 +1,1 @@
+Your hash function is under attack! Well, actually, you'll be the one attacking it... Are you able to defeat the combined power of Merkle and Dåmgard? The server handles your commands, but only in the form of tokens, that must have a correct MAC.

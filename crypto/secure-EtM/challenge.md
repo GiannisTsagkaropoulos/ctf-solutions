@@ -1,0 +1,3 @@
+These professors keep telling me that encrypt and mac is something I should avoid. Yet the proofs always involve very weirdly defined MAC schemes. To prove them wrong, I've used encrypt and mac to transmit my flag. I'm so confident in the correctness of this, that I'll even give you a partial decryption oracle.
+
+Read the server code, and try to decrypt the encrypted flag. You can ask for the encrypted flag using the flag command!

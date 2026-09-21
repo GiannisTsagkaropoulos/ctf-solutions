@@ -1,0 +1,1 @@
+The CTR variant reuses enough structure in its counter input to make keystream blocks predictable. Query the encryption endpoint with aligned chosen plaintext, derive the keystream, and XOR it with the returned ciphertext to recover the flag.
