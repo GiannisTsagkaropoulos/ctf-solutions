@@ -1,0 +1,1 @@
+Several RSA moduli share a factor because their primes were generated from a small collision-prone space. Compute pairwise gcds, factor the affected modulus, derive its private key, and decrypt the message.

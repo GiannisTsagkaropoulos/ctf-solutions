@@ -1,0 +1,1 @@
+Exploit the server's RSA decryption/signing interface as an OAEP oracle. Construct the permitted related ciphertexts, use the oracle responses to recover the encoded message, and decode the resulting flag.

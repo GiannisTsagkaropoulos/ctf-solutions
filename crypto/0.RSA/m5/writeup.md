@@ -1,0 +1,1 @@
+Use the RSA common-modulus attack: the same plaintext is encrypted under the same modulus with coprime exponents. Find Bézout coefficients for the exponents, combine the two ciphertext powers, and recover the plaintext without factoring.

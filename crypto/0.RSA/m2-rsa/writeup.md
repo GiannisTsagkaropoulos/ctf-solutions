@@ -1,0 +1,1 @@
+Exploit textbook RSA with a small public exponent and a message small enough that no modular wraparound occurs. Compute the exact integer cube root of the ciphertext and convert the recovered plaintext bytes to the flag.

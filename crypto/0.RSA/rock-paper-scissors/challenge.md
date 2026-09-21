@@ -1,0 +1,5 @@
+The challenge description wasn't the following. I tried to reverse engineer the challenge description using my memory, AI and my comments from the writeups.
+
+Play 100 rounds of rock-paper-scissors. The server first receives a client signature and a Poly1305 tag in `get_move`, chooses its move, and returns that move. In `reveal`, the client must provide the move that beats the server, an RSA modulus, and a Poly1305 key. The submitted signature must verify as a raw RSA signature on the move, and the tag must authenticate the same move under the round nonce.
+
+The verifier incorrectly accepts attacker-selected RSA moduli and the MAC key is also supplied by the client. Exploit these weaknesses to produce a signature valid for all possible moves and forge the required Poly1305 tags, win every round, and retrieve the flag with `get_flag`.
