@@ -1,0 +1,1 @@
+Exploit the padding error oracle by modifying the IV/ciphertext bytes. A valid response identifies the last plaintext byte, and repeating the process with increasing PKCS#7 padding recovers the plaintext block by block.

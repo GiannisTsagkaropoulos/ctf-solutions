@@ -1,0 +1,1 @@
+Two messages reuse a one-time-pad keystream, so XORing their ciphertexts cancels the key. Use the known `flag{` prefix and readable plaintext constraints to recover the other message and then the flag.

@@ -1,0 +1,1 @@
+Use the CBC padding oracle to recover the intermediate value for each ciphertext block. Force padding lengths from one through the block size, XOR the intermediate bytes with the original preceding block, and decrypt the flag.
