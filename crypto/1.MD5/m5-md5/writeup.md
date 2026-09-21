@@ -1,0 +1,1 @@
+The token contains an unknown short field inside known plaintext and is encrypted in a malleable block mode. Brute-force the field using MD5 and splice known ciphertext blocks into a valid login token that the server accepts.
